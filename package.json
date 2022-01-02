@@ -1,0 +1,22 @@
+{
+  "name": "rest-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
